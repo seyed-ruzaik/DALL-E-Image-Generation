@@ -3,7 +3,7 @@ import urllib.request
 from PIL import Image
 import streamlit as st
 
-openai.api_key = "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"
+openai.api_key = "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"
 
 # Set page title and favicon
 st.set_page_config(page_title="DALL.E - Image Generation - OpenAI", page_icon="icon.jpeg")
