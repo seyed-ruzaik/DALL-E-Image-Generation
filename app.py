@@ -25,7 +25,7 @@ def generate_image(image_description):
 
 
 # page title
-st.title('"AI Image Generator')
+st.title('"AI Image Generator"')
 
 # text input box for image recognition
 img_description = st.text_input('Image Description')
