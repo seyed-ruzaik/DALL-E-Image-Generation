@@ -6,7 +6,7 @@ import streamlit as st
 openai.api_key = "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"
 
 # Set page title and favicon
-st.set_page_config(page_title="DALL.E - Image Generation - OpenAI", page_icon="icon.jpeg")
+st.set_page_config(page_title="AI Image Generator", page_icon="icon.jpeg")
 
 
 def generate_image(image_description):
@@ -25,7 +25,7 @@ def generate_image(image_description):
 
 
 # page title
-st.title('DALL.E - Image Generation - OpenAI')
+st.title('"AI Image Generator')
 
 # text input box for image recognition
 img_description = st.text_input('Image Description')
